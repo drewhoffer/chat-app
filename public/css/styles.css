@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 html {
     font-size: 16px;
 }
@@ -19,6 +22,33 @@ body {
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+
+.chat__messages::-webkit-scrollbar {
+    width: 0.55rem;
+}
+
+.chat__messages::-webkit-scrollbar-track {
+    background: #7C5CBF;
+}
+
+.chat__messages::-webkit-scrollbar-thumb {
+    background: #333744;
+}
+
+.chat__sidebar::-webkit-scrollbar {
+    width: 0.55rem;
+}
+
+.chat__sidebar::-webkit-scrollbar-track {
+    background: #7C5CBF;
+}
+
+.chat__sidebar::-webkit-scrollbar-thumb {
+    background: #333744;
+}
+
+
 
 h1 {
     margin-bottom: 16px;
@@ -35,6 +65,7 @@ input {
     border: 1px solid #eeeeee;
     padding: 12px;
     outline: none;
+    border-radius: 10px;
 }
 
 button {
@@ -45,6 +76,7 @@ button {
     color: white;
     font-size: 16px;
     transition: background .3s ease;
+    border-radius: 10px;
 }
 
 button:hover {
